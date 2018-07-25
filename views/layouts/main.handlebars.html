@@ -1,0 +1,27 @@
+<!--Partials- things repeated over and over just inserted inside-->
+<!--views are different pages, in our case changes for questions-->
+<!--Layout is what are inseting views into, default layout is main-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{>head}}
+        <title>Should I go home?</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+  
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="/images/title.png" />
+            </div>
+            {{{body}}}<!--This is what is rendered inside-->
+        </div>
+                 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+                       <script type="text/javascript" src="/scripts/handlebars-v4.0.5.js"></script>
+             
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <script type="text/javascript" src="/scripts/actions.js"></script> 
+
+
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "ichack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ai to stop you getting too drunk",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" %% exit 1"
+  },
+  "author": "Becks Simpson",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
+  }
+}

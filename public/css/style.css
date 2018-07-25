@@ -1,0 +1,58 @@
+
+body{
+    background-color:rgb(42,55,161);
+    text-align:center;
+    color:white;
+    max-height:100vh;
+    font:16em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header img{
+    width:90%;
+    display:inline-block;
+    
+}
+.header{
+    width:100%;
+    text-align:center;
+    height:25vh;
+}
+
+.option button{
+  display:inline-block;
+    position: absolute;
+    bottom: 200px; 
+    left:15%; 
+    white-space: normal;
+}
+.option .image img{
+    width:100%; 
+}
+.option .image  {
+    
+    width:70%;
+    height:auto;
+    display:inline-block;
+    position:absolute;
+    bottom:5%; 
+    left:15%; 
+       
+}
+.result img{
+    width:100%;
+}
+.result{
+    width:50%;
+    display:inline-block;
+
+}
+
+.option{
+    height:60vh;
+    position:relative;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/StrangeTales.ttf);
+}
